@@ -17,15 +17,15 @@ function cnvrt() {
 
   reader.setAttribute("id", "rdr");
 
-  reader.classList.add("container");
+  reader.classList.add("container", "keep-scrolling");
 
   reader.innerHTML = text;
 
   document.getElementById("crps").appendChild(reader);
 
   let ax = document.getElementById("rdr").innerHTML;
-  let as = ax.split(".").join(". <br />");
-
+  let as = ax;
+  //.split(".").join(". <br />")
   reader.innerHTML = as;
 
   body.style.backgroundImage = "url('img/luciferdante2.png')";

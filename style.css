@@ -28,7 +28,7 @@ body {
   background-color: #222;
 }
 .container {
-  width: 560px;
+  width: 640px;
   padding: 10px 40px;
   height: 100vh;
   text-align: center;
@@ -111,14 +111,14 @@ textarea {
   bottom: 360px;
 }
 .btnxd {
-  height: 90px;
-  width: 120px;
+  height: 85px;
+  width: 100px;
   bottom: 360px;
-  right: 345px;
+  right: 338px;
 }
 .ghost {
   position: absolute;
-  top: 179px;
+  top: 199px;
   height: 156px;
   width: 212px;
   padding-left: 1px;
@@ -131,6 +131,10 @@ textarea {
   pointer-events: none;
 }
 .inv {
+  display: none;
+}
+
+.keep-scrolling::-webkit-scrollbar {
   display: none;
 }
 /*
